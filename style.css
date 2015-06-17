@@ -1,0 +1,124 @@
+html
+{
+	background: url(images/bkgrd.png) no-repeat center center fixed;
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+	webkit-background-size: cover;
+}
+body,html
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.shading
+{
+	background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	bottom: 0px;
+	height: 50%;
+	position: absolute;
+	width: 100%;
+}
+#center-block
+{
+	background: url(images/bg.jpg) no-repeat center center fixed;
+	bottom: 0;
+	height: 300px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	white-space: nowrap;
+	width: 300px;
+	z-index: 9;
+}
+#center-block:before
+{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	width: 0;
+}
+#container
+{
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+}
+#hand-block
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+#hand-block img
+{
+	width: 100%;
+}
+#photo-button
+{
+	background-color: black;
+	border: none;
+	border-radius: 6px;
+	color: #fff;
+	font-family: "Arial Black Regular";
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	moz-border-radius: 5px;
+	padding: 15px 15px;
+	text-decoration: none;
+	webkit-border-radius: 5px;
+}
+#pagination
+{
+	bottom: 5px;
+	clear: both;
+	left: 0;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	width: 240px;
+}
+#pagination ol
+{
+	display: inline-block;
+	padding: 0px;
+}
+#pagination li
+{
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+}
+#pagination li a
+{
+	background-color: white;
+	border: solid 1px white;
+	border-radius: 5px/5px;
+	display: block;
+	height: 5px;
+	moz-border-radius: 5px/5px;
+	webkit-border-radius: 5px 5px;
+	width: 5px;
+}
+#pagination li a.active
+{
+	background-position: 0 10px;
+}
+.left-arrow img
+{
+	display: inline-block;
+	width: 35px;
+}
+.right-arrow img
+{
+	display: inline-block;
+	width: 35px;
+}
